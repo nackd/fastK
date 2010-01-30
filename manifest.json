@@ -1,0 +1,9 @@
+{
+    "name": "fastK",
+    "version": "0.1",
+    "description": "Fast access key à la KDE's Konqueror",
+    "content_scripts": [ {
+        "matches": [ "http://*/*", "https://*/*", "file://*" ],
+        "js": [ "contentscript.js" ]
+    } ]
+}
